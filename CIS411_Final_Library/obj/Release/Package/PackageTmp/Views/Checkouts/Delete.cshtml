@@ -1,0 +1,47 @@
+﻿@model CIS411_Final_Library.Models.Checkout
+
+@{
+    ViewBag.Title = "Return Book";
+}
+
+<h2>Return Book</h2>
+
+<div>
+    <h4>Check In</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CheckoutDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CheckoutDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DueDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DueDate)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Return" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "MyCheckouts")
+        </div>
+    }
+</div>

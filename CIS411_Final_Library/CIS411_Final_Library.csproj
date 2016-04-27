@@ -256,10 +256,26 @@
     <Content Include="bin\WebGrease.dll" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="images\4.5_StarRating-1024x167.png" />
+    <Content Include="images\5stars.png" />
+    <Content Include="images\5_star.jpeg" />
+    <Content Include="images\car_img1.jpg" />
+    <Content Include="images\car_img2.jpg" />
+    <Content Include="images\car_img3.jpg" />
+    <Content Include="images\car_img4.jpg" />
+    <Content Include="images\car_img5.png" />
+    <Content Include="images\car_img6.jpg" />
+    <Content Include="images\car_img7.gif" />
+    <Content Include="images\car_img8.jpg" />
+    <Content Include="images\five-star-review.png" />
+    <Content Include="images\five_star.jpg" />
+    <Content Include="images\hm_img1.png" />
+    <Content Include="images\hm_img2.png" />
+    <Content Include="images\hm_img3.png" />
     <Content Include="images\starRating.png" />
     <Content Include="images\stars.png" />
     <Content Include="images\Whitestar.gif" />
@@ -270,6 +286,8 @@
     <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
     <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
     <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="images\Thumbs.db" />
+    <None Include="Properties\PublishProfiles\testinglibrary.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -345,6 +363,9 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

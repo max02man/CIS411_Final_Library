@@ -1,0 +1,35 @@
+﻿
+@model IEnumerable<CIS411_Final_Library.Models.Checkout>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CheckoutDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ApplicationUsers.FirstName )
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CheckoutDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApplicationUsers.FirstName)
+            </td>
+            @*<td>
+                @if (User.IsInRole("Admin") || User.IsInRole("User"))
+                {
+                    @Html.ActionLink("Edit", "Edit", new { id = item.CheckoutID })
+                }
+            </td>*@
+        </tr>
+    }
+</table>

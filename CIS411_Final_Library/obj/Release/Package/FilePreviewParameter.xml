@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="testinglibrary" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\MAX\ MAN\\Documents\\GitHub\\testing\\CIS411_Final_Library\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\MAX\ MAN\\Documents\\GitHub\\testing\\CIS411_Final_Library\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="4Context-Web.config Connection String" description="" value="data source=tcp:cis411librarytesting.database.windows.net,1433;initial catalog=librarycis411;user id=maxman@cis411librarytesting.database.windows.net;password=Max@man02;MultipleActiveResultSets=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\MAX\ MAN\\Documents\\GitHub\\testing\\CIS411_Final_Library\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='4Context']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:cis411librarytesting.database.windows.net,1433;Initial Catalog=librarycis411;User Id=maxman@cis411librarytesting.database.windows.net;Password=Max@man02" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\MAX\ MAN\\Documents\\GitHub\\testing\\CIS411_Final_Library\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

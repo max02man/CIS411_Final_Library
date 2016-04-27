@@ -1,0 +1,110 @@
+﻿@model IEnumerable<CIS411_Final_Library.Models.Book>
+
+@{
+    ViewBag.Title = "Book Index";
+}
+
+<h2>Book Index</h2>
+
+<p>
+    @if(User.IsInRole("Admin"))
+    {
+    @Html.ActionLink("Publish New Book", "Create")
+    }
+    @if (User.IsInRole("Author"))
+    {
+        @Html.ActionLink("Publish New Book", "Create")
+    }
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreationDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ApplicationUsers.FirstName)
+        </th>
+        <th>
+            @Html.DisplayName("Action")
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreationDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ApplicationUsers.FirstName)
+        </td>
+@if (Request.IsAuthenticated)
+
+{
+
+    if (User.IsInRole("Admin"))
+    {
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.BookID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.BookID }) |
+            @Html.ActionLink("Review", "Index", "Rates", new { id = item.BookID }, null) |
+            @Html.ActionLink("View Checkouts", "Index", "Checkouts", new { id = item.BookID }, null) |
+            @Html.ActionLink("Checkout Book", "Create", "Checkouts", new { id = item.BookID }, null) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.BookID })
+        </td>
+    }
+
+    if (User.IsInRole("Author"))
+    {
+        <td>
+            @if (item.ApplicationUsers.Id == ViewBag.x)
+            {
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.BookID }) |
+                @Html.ActionLink("View Checkouts", "Index", "Checkouts", new { id = item.BookID }, null) |
+                @Html.ActionLink("Details", "Details", new { id = item.BookID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.BookID })
+            </td>
+            }
+            @if (item.ApplicationUsers.Id != ViewBag.x)
+            {
+                <td>
+                    @Html.ActionLink("Review", "Index", "Rates", new { id = item.BookID }, null) |
+                    @Html.ActionLink("View Checkouts", "Index", "Checkouts", new { id = item.BookID }, null) |
+                    @Html.ActionLink("Checkout Book", "Create", "Checkouts", new { id = item.BookID }, null) |
+                    @Html.ActionLink("Details", "Details", new { id = item.BookID })
+                </td>
+            }
+            </td>
+    }
+   if (User.IsInRole("User"))
+    {
+        <td>
+            @Html.ActionLink("Details", "Details", new { id = item.BookID }) |
+            @Html.ActionLink("Review", "Index", "Rates", new { id = item.BookID }, null) |
+            @Html.ActionLink("Checkout Book", "Create", "Checkouts", new { id = item.BookID }, null) 
+
+        </td>
+    }
+}
+else
+{
+    <td>
+        @Html.ActionLink("Details", "Details", new { id = item.BookID })
+    </td>
+}
+    </tr>
+}
+
+</table>

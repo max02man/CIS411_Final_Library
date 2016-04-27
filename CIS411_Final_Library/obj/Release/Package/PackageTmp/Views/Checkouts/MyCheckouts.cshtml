@@ -1,0 +1,51 @@
+﻿@model IEnumerable<CIS411_Final_Library.Models.Checkout>
+
+@{
+    ViewBag.Title = "My Checkouts";
+}
+
+<h2>My Checkouts</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(m => m.Books.Title)
+        </th>
+   
+        <th>
+            @Html.DisplayNameFor(model => model.CheckoutDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DueDate)
+        </th>
+        <th>
+            @Html.DisplayName("Action")
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Books.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CheckoutDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DueDate)
+        </td>
+        <td>
+            @*@Html.ActionLink("Edit", "Edit", new { id=item.CheckoutID }) |*@
+            @Html.ActionLink("Details", "Details", new { id=item.CheckoutID }) |
+            @Html.ActionLink("Return Book", "Delete", new { id=item.CheckoutID })
+        </td>
+    </tr>
+}
+
+</table>
