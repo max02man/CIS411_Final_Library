@@ -1,0 +1,43 @@
+﻿@model IEnumerable<CIS411_Final_Library.Models.BookListReview>
+
+@{
+    ViewBag.Title = "Book Library";
+}
+<h2>@ViewBag.Title</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>Use this area to search for a specific book.</p>
+
+
+<form method="get">
+    <input type="search" name="searchTerm" />
+    <input type="submit" value="Search by Title" />
+</form>
+
+<hr>
+
+@foreach (var item in Model)
+{
+    <div class="container-fluid">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4><b><u>@item.Title</u></b></h4>
+            </div>
+
+            <div class="panel-body">
+                <div class="col-sm-3">
+                <p><b>Creation Date:</b> @item.CreationDate </p>
+                    </div>
+                <div class="col-sm-3">
+                    <p><b>Quantity:</b> @item.Quantity</p>
+                    </div>
+                <div class="col-sm-3">
+                    <p><b>Average Rating:</b> @item.AveRate</p>
+                    </div>
+                <div class="col-sm-3">
+                    <p><b>Rating:</b> @item.Rate</p>
+                </div>
+            </div>
+         </div>
+     </div>
+}

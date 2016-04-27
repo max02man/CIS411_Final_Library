@@ -1,0 +1,90 @@
+C:\Users\MAX MAN\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\csc.exe
+C:\Users\MAX MAN\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MAX MAN\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MAX MAN\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MAX MAN\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MAX MAN\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MAX MAN\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MAX MAN\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MAX MAN\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MAX MAN\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\vbc.exe
+C:\Users\MAX MAN\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\VBCSCompiler.exe
+C:\Users\MAX MAN\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MAX MAN\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\CIS411_Final_Library.dll.config
+C:\Users\MAX MAN\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\CIS411_Final_Library.dll
+C:\Users\MAX MAN\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\CIS411_Final_Library.pdb
+C:\Users\MAX MAN\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\obj\Debug\CIS411_Final_Library.dll
+C:\Users\MAX MAN\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\obj\Debug\CIS411_Final_Library.pdb
+C:\Users\Khang\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\csc.exe
+C:\Users\Khang\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Khang\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Khang\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Khang\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Khang\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Khang\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Khang\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Khang\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Khang\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\vbc.exe
+C:\Users\Khang\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\VBCSCompiler.exe
+C:\Users\Khang\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Khang\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\CIS411_Final_Library.dll.config
+C:\Users\Khang\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\CIS411_Final_Library.dll
+C:\Users\Khang\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\bin\CIS411_Final_Library.pdb
+C:\Users\Khang\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\obj\Debug\CIS411_Final_Library.csprojResolveAssemblyReference.cache
+C:\Users\Khang\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\obj\Debug\CIS411_Final_Library.dll
+C:\Users\Khang\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\obj\Debug\CIS411_Final_Library.pdb
+C:\Users\MAX MAN\Documents\GitHub\CIS411-Final-Library\CIS411_Final_Library\obj\Debug\CIS411_Final_Library.csprojResolveAssemblyReference.cache
+C:\Users\BrentJ\Documents\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\csc.exe
+C:\Users\BrentJ\Documents\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\BrentJ\Documents\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\BrentJ\Documents\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\BrentJ\Documents\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\BrentJ\Documents\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\BrentJ\Documents\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\BrentJ\Documents\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\BrentJ\Documents\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\BrentJ\Documents\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\vbc.exe
+C:\Users\BrentJ\Documents\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\VBCSCompiler.exe
+C:\Users\BrentJ\Documents\CIS411-Final-Library\CIS411_Final_Library\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\BrentJ\Documents\CIS411-Final-Library\CIS411_Final_Library\bin\CIS411_Final_Library.dll.config
+C:\Users\BrentJ\Documents\CIS411-Final-Library\CIS411_Final_Library\bin\CIS411_Final_Library.dll
+C:\Users\BrentJ\Documents\CIS411-Final-Library\CIS411_Final_Library\bin\CIS411_Final_Library.pdb
+C:\Users\BrentJ\Documents\CIS411-Final-Library\CIS411_Final_Library\obj\Debug\CIS411_Final_Library.csprojResolveAssemblyReference.cache
+C:\Users\BrentJ\Documents\CIS411-Final-Library\CIS411_Final_Library\obj\Debug\CIS411_Final_Library.dll
+C:\Users\BrentJ\Documents\CIS411-Final-Library\CIS411_Final_Library\obj\Debug\CIS411_Final_Library.pdb
+C:\Users\Eythan\Documents\school\CIS 411\Final project\CIS411_Final_Library\CIS411_Final_Library\bin\roslyn\csc.exe
+C:\Users\Eythan\Documents\school\CIS 411\Final project\CIS411_Final_Library\CIS411_Final_Library\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Eythan\Documents\school\CIS 411\Final project\CIS411_Final_Library\CIS411_Final_Library\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Eythan\Documents\school\CIS 411\Final project\CIS411_Final_Library\CIS411_Final_Library\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Eythan\Documents\school\CIS 411\Final project\CIS411_Final_Library\CIS411_Final_Library\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Eythan\Documents\school\CIS 411\Final project\CIS411_Final_Library\CIS411_Final_Library\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Eythan\Documents\school\CIS 411\Final project\CIS411_Final_Library\CIS411_Final_Library\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Eythan\Documents\school\CIS 411\Final project\CIS411_Final_Library\CIS411_Final_Library\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Eythan\Documents\school\CIS 411\Final project\CIS411_Final_Library\CIS411_Final_Library\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Eythan\Documents\school\CIS 411\Final project\CIS411_Final_Library\CIS411_Final_Library\bin\roslyn\vbc.exe
+C:\Users\Eythan\Documents\school\CIS 411\Final project\CIS411_Final_Library\CIS411_Final_Library\bin\roslyn\VBCSCompiler.exe
+C:\Users\Eythan\Documents\school\CIS 411\Final project\CIS411_Final_Library\CIS411_Final_Library\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Eythan\Documents\school\CIS 411\Final project\CIS411_Final_Library\CIS411_Final_Library\bin\CIS411_Final_Library.dll.config
+C:\Users\Eythan\Documents\school\CIS 411\Final project\CIS411_Final_Library\CIS411_Final_Library\bin\CIS411_Final_Library.dll
+C:\Users\Eythan\Documents\school\CIS 411\Final project\CIS411_Final_Library\CIS411_Final_Library\bin\CIS411_Final_Library.pdb
+C:\Users\Eythan\Documents\school\CIS 411\Final project\CIS411_Final_Library\CIS411_Final_Library\obj\Debug\CIS411_Final_Library.csprojResolveAssemblyReference.cache
+C:\Users\Eythan\Documents\school\CIS 411\Final project\CIS411_Final_Library\CIS411_Final_Library\obj\Debug\CIS411_Final_Library.dll
+C:\Users\Eythan\Documents\school\CIS 411\Final project\CIS411_Final_Library\CIS411_Final_Library\obj\Debug\CIS411_Final_Library.pdb
+C:\Users\MAX MAN\Documents\GitHub\testing\CIS411_Final_Library\bin\roslyn\csc.exe
+C:\Users\MAX MAN\Documents\GitHub\testing\CIS411_Final_Library\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MAX MAN\Documents\GitHub\testing\CIS411_Final_Library\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MAX MAN\Documents\GitHub\testing\CIS411_Final_Library\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MAX MAN\Documents\GitHub\testing\CIS411_Final_Library\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MAX MAN\Documents\GitHub\testing\CIS411_Final_Library\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MAX MAN\Documents\GitHub\testing\CIS411_Final_Library\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MAX MAN\Documents\GitHub\testing\CIS411_Final_Library\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MAX MAN\Documents\GitHub\testing\CIS411_Final_Library\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MAX MAN\Documents\GitHub\testing\CIS411_Final_Library\bin\roslyn\vbc.exe
+C:\Users\MAX MAN\Documents\GitHub\testing\CIS411_Final_Library\bin\roslyn\VBCSCompiler.exe
+C:\Users\MAX MAN\Documents\GitHub\testing\CIS411_Final_Library\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MAX MAN\Documents\GitHub\testing\CIS411_Final_Library\bin\CIS411_Final_Library.dll.config
+C:\Users\MAX MAN\Documents\GitHub\testing\CIS411_Final_Library\bin\CIS411_Final_Library.dll
+C:\Users\MAX MAN\Documents\GitHub\testing\CIS411_Final_Library\bin\CIS411_Final_Library.pdb
+C:\Users\MAX MAN\Documents\GitHub\testing\CIS411_Final_Library\obj\Debug\CIS411_Final_Library.csprojResolveAssemblyReference.cache
+C:\Users\MAX MAN\Documents\GitHub\testing\CIS411_Final_Library\obj\Debug\CIS411_Final_Library.dll
+C:\Users\MAX MAN\Documents\GitHub\testing\CIS411_Final_Library\obj\Debug\CIS411_Final_Library.pdb

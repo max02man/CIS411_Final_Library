@@ -1,0 +1,7 @@
+﻿@model CIS411_Final_Library.Models.Book
+
+@{
+    ViewBag.Title = "Checkout";
+}
+<h2>CheckOut for @Model.Title</h2>
+@Html.Partial("_checkout", Model.Checkouts)
